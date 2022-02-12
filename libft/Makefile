@@ -6,7 +6,7 @@
 #    By: bkeskint <bkeskint@student.42wolfsburg.de> +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2021/05/16 16:48:51 by batuhankeskintas  #+#    #+#              #
-#    Updated: 2021/07/06 19:07:21 by bkeskint         ###   ########.fr        #
+#    Updated: 2022/02/12 20:03:17 by bkeskint         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -17,6 +17,7 @@ SRCS 		=	ft_memset.c	ft_bzero.c ft_memcpy.c ft_memccpy.c ft_strlen.c \
 				ft_toupper.c ft_tolower.c ft_calloc.c ft_strdup.c ft_substr.c \
 				ft_strjoin.c ft_strtrim.c ft_split.c ft_itoa.c ft_strmapi.c \
 				ft_putchar_fd.c ft_putstr_fd.c ft_putendl_fd.c ft_putnbr_fd.c \
+				ft_strcmp.c
 
 SRCS_B		=	ft_lstnew.c ft_lstadd_front.c ft_lstsize.c ft_lstlast.c ft_lstadd_back.c \
 				
