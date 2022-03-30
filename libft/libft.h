@@ -6,7 +6,7 @@
 /*   By: bkeskint <bkeskint@student.42wolfsburg.de> +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/05/16 23:30:28 by bkeskint          #+#    #+#             */
-/*   Updated: 2022/02/12 20:03:05 by bkeskint         ###   ########.fr       */
+/*   Updated: 2022/03/30 10:27:48 by bkeskint         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -62,5 +62,7 @@ void	ft_lstadd_front(t_list **lst, t_list *newl);
 int		ft_lstsize(t_list *lst);
 t_list	*ft_lstlast(t_list *lst);
 void	ft_lstadd_back(t_list **lst, t_list *new);
+int		arrlen(char **src);
+int		freesplit(char **split);
 
 #endif

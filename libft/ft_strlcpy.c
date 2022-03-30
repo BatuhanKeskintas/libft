@@ -6,7 +6,7 @@
 /*   By: bkeskint <bkeskint@student.42wolfsburg.de> +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/05/16 23:13:26 by bkeskint          #+#    #+#             */
-/*   Updated: 2021/05/16 23:59:08 by bkeskint         ###   ########.fr       */
+/*   Updated: 2022/03/30 10:21:45 by bkeskint         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,7 +21,7 @@ size_t	ft_strlcpy(char *dest, const char *src, size_t dest_size)
 	src_len = ft_strlen(src);
 	if (src_len + 1 < dest_size)
 	{
-		while (i < src_len + 1 )
+		while (i < src_len + 1)
 		{
 			((char *)dest)[i] = ((char *)src)[i];
 			i++;
